@@ -1,0 +1,5 @@
+[build]
+preload = ["./auplugin.ts"]
+
+[test]
+preload = ["./auplugin.ts", "./happydom.ts"]

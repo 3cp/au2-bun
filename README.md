@@ -13,3 +13,7 @@ Demo of Aurelia 2 using [bun](https://bun.sh).
     bun start
 
 CSS is not working yet.
+
+## Run unit tests
+
+    bun test
