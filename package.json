@@ -1,0 +1,34 @@
+{
+  "name": "p3",
+  "description": "An Aurelia 2 client application.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "???"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aurelia": "latest",
+    "@aurelia/router": "latest"
+  },
+  "devDependencies": {
+    "@aurelia/plugin-conventions": "^2.0.0-beta.8",
+    "@aurelia/testing": "latest",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "htmlhint": "^1.1.4"
+  },
+  "scripts": {
+    "lint:js": "eslint src test --ext .js,.ts",
+    "lint:html": "htmlhint -c .htmlhintrc src",
+    "lint": "bun run lint:js && npm run lint:html",
+    "start": "http-server -c-1",
+    "prestart": "bun run build",
+    "build": "bun build.ts"
+  },
+  "aurelia": {
+    "hmr": false
+  }
+}
