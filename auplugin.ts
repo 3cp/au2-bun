@@ -27,11 +27,15 @@ const auPlugin: BunPlugin = {
       // and returns it as a module
       return {
         contents: result.code,
+        // loader: "ts" works for bundler but not runtime(tester)??
         loader: "tsx",
       };
     });
   },
 };
 
+// plugin registration for runtime
 plugin(auPlugin);
+// bundler however needs to access plugin directly.
+// need to understand the difference between runtime and bundler.
 export default auPlugin;
