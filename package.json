@@ -8,18 +8,19 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "aurelia": "latest",
-    "@aurelia/router": "latest"
+    "aurelia": "2.0.0-beta.8",
+    "@aurelia/router": "2.0.0-beta.8"
   },
   "devDependencies": {
-    "@aurelia/plugin-conventions": "^2.0.0-beta.8",
-    "@aurelia/testing": "latest",
-    "@happy-dom/global-registrator": "^11.0.2",
-    "@types/node": "^18.11.18",
+    "@aurelia/plugin-conventions": "2.0.0-beta.8",
+    "@aurelia/testing": "2.0.0-beta.8",
+    "@happy-dom/global-registrator": "^15.11.7",
+    "@types/node": "^22.10.1",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
     "eslint": "^8.43.0",
-    "htmlhint": "^1.1.4"
+    "htmlhint": "^1.1.4",
+    "http-server": "^14.1.1"
   },
   "scripts": {
     "lint:js": "eslint src test --ext .js,.ts",
