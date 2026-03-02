@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "emitDecoratorMetadata": true,
     "module": "esnext",
     "moduleResolution": "node",
     "skipLibCheck": true,
