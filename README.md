@@ -1,7 +1,5 @@
 # au2-bun
 
-This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
-
 Demo of Aurelia 2 using [bun](https://bun.sh).
 Everything is fast with bun.
 
